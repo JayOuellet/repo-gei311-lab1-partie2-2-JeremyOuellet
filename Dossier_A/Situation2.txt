@@ -1,0 +1,4 @@
+1 - Après les étapes 1 à 8 soit le commit de l'erreur du membre B, le membre A crée un issue pour signaler l'erreur injecté dans le commit du membre B
+2 - Le membre B regarde le message et répond au issue à l'aide de l'historique de commit en mentionnant le tag du commit problématique et le tag de la dernière version acceptable.
+3 - Le membre A regarde la réponse du membre pour savoir quel version du commit est la bonne et revenir en arrière avec l'historique avec la fonction reset -hard <tag du dernier bon commit>. Cela ramène le dossier local à la version choisie.
+4 - Une façon de sycnhroniser le tout avec le repo distant serait de créer une nouvelle branche et repartir de celle-ci pour le reste du projet. 

@@ -1,0 +1,7 @@
+1 - Le membre A crée un nouveau repository sur GitHub
+2 - Il ouvre un terminal de command dans le dossier du projet
+3 - Il fait les commandes suivantes: 
+	git init
+	git remote add MembreA https://github.com/repositoryname
+4 - Il ajoute le membre B comme collaborateur au repository
+5 - En option, le membre B peut créé sa propre branche
