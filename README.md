@@ -5,10 +5,10 @@ Dans ce laboratoire, nous avons créer un repository dans lequel nous avons suiv
 Cette partie est séparé en deux situations.
 ## Situation 1
 Voici les étapes que nous avons suivies pour résoudre la situation\
-1 - Le membre A crée un nouveau repository sur GitHub
-2 - Il ouvre un terminal de command dans le dossier du projet
-3 - Il fait les commandes suivantes: 
-	```git init```
-	```git remote add MembreA https://github.com/repositoryname```
-4 - Il ajoute le membre B comme collaborateur au repository
-5 - En option, le membre B peut créé sa propre branche
+1 - Le membre A crée un nouveau repository sur GitHub\
+2 - Il ouvre un terminal de command dans le dossier du projet\
+3 - Il fait les commandes suivantes:\
+	```git init```\
+	```git remote add MembreA https://github.com/repositoryname```\
+4 - Il ajoute le membre B comme collaborateur au repository\
+5 - En option, le membre B peut créé sa propre branche\
