@@ -4,7 +4,7 @@ Dans ce laboratoire, nous avons créer un repository dans lequel nous avons suiv
 # Partie 2 : situations problématiques
 Cette partie est séparé en deux situations.
 ## Situation 1
-Voici les étapes que nous avons suivies pour résoudre la situation 
+Voici les étapes que nous avons suivies pour résoudre la situation\
 1 - Le membre A crée un nouveau repository sur GitHub
 2 - Il ouvre un terminal de command dans le dossier du projet
 3 - Il fait les commandes suivantes: 
