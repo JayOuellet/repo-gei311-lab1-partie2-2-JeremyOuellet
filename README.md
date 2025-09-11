@@ -12,3 +12,4 @@ Voici les étapes que nous avons suivies pour résoudre la situation\
 	```git remote add MembreA https://github.com/repositoryname```\
 4 - Il ajoute le membre B comme collaborateur au repository\
 5 - En option, le membre B peut créé sa propre branche\
+## Situation 2
