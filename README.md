@@ -16,9 +16,11 @@ Voici les étapes que nous avons suivies pour résoudre la situation\
 1 - Après les étapes 1 à 8 soit le commit de l'erreur du membre B, le membre A crée un issue pour signaler l'erreur injecté dans le commit du membre B\
 2 -  L'issue créée doit contenir une description de l'erreur commise qui permet au membre B de localiser l'erreur. Exemple: Nom du dossier en erreur, ligne de code erronée, etc)\
 3 - Le membre B regarde le message et répond au issue en mentionnant le tag du commit problématique et le tag de la dernière version acceptable. Le tag est habituellement dans ce format: f38fa76\
-4 - Avec l'information donnée par le membre B, le membre A utilise ensuite l'historique des commits de la branche principale et reviens à la dernière version non-erronée\
+4 - Avec l'information donnée par le membre B, le membre A utilise ensuite l'historique des commits de la branche principale pour revenir à la dernière version non-erronée\
 5 - Pour cela, il fait les commandes suivantes:\
 	```git init```\
  	```git reset -hard <tag du dernier bon commit>```\
 6 - Le dossier local du membre A est ainsi revenu à la version non-erronée et le issue peut être taggé comme fermé\
-4 - Une façon de sycnhroniser le tout avec le repo distant serait de créer une nouvelle branche et repartir de celle-ci pour le reste du projet. 
+7 - Comme dernier commentaire du issue, le membre A peut noter les changements non-erronés qui ont été supprimé par le reset du repo et qui doivent être refait\
+8 - Le membre B peut maintenant refaire les changements dans son repo local et faire un commit\
+9 - Une façon pour le membre B de synchroniser le tout avec le repo distant serait de créer une nouvelle branche et repartir de celle-ci pour le reste du projet. Il ferait donc les mêmes commandes qui ont été faites dans la Partie 1 du laboratoire\
